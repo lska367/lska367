@@ -1,11 +1,25 @@
 <div align="center">
 
+**[中文](#zh)** · **[English](#en)**
+
+</div>
+
+<!-- ================================================================ -->
+<!--                              中文版                               -->
+<!-- ================================================================ -->
+
+<a name="zh"></a>
+
+<div align="center">
+
 # Hi there 👋 我是杨锴（lska367）
 
-**KV Cache · LLM 推理优化 · 分布式系统**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=1200&color=36BCF7&center=true&vCenter=true&width=560&lines=KV+Cache+%C2%B7+LLM+Inference+Optimization;Distributed+Systems;Measurement+First+%C2%B7+Reproducible+Design" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-blue?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github)](https://github.com/lska367)
+[![Followers](https://img.shields.io/github/followers/lska367?style=flat-square&logo=github&label=Followers)](https://github.com/lska367?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=lska367&style=flat-square&color=0366d6)](https://github.com/lska367)
 
 </div>
 
@@ -62,14 +76,14 @@ KV Cache 研究笔记
 
 ## 🌱 技术栈
 
-```text
-Deep Learning   │  PyTorch · HF Transformers · PEFT（LoRA / QLoRA / P-tuning）
-LLM Inference   │  vLLM（源码级）· KV Cache · 量化 / 调度
-Distributed     │  Ray Core / Train / Data · 分布式训练与推理
-LLM Apps        │  LangChain / LangGraph · Multi-Agent · RAG · 上下文工程 · LLM-as-Judge
-Federated       │  Flower（flwr）· 联邦标签噪声学习
-Systems         │  Linux · CUDA / GPU · Python · Git
-```
+| 方向 | 技术 |
+|:--:|:---|
+| **Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HF Transformers](https://img.shields.io/badge/HF_Transformers-FF9D00?style=flat-square&logo=huggingface&logoColor=white) ![PEFT](https://img.shields.io/badge/PEFT_%28LoRA_%2F_QLoRA_%2F_P--tuning%29-6B4FBB?style=flat-square) |
+| **LLM Inference** | ![vLLM](https://img.shields.io/badge/vLLM_%28source--level%29-0080FF?style=flat-square) ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Quantization / Scheduling](https://img.shields.io/badge/Quantization_%2F_Scheduling-5C4D7D?style=flat-square) |
+| **Distributed** | ![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square) |
+| **LLM Apps** | ![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square) |
+| **Federated** | ![Flower (flwr)](https://img.shields.io/badge/Flower_%28flwr%29-F2B705?style=flat-square) ![Label-Noise Learning](https://img.shields.io/badge/Label--Noise_Learning-607D8B?style=flat-square) |
+| **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 ## 🏆 荣誉
 
@@ -79,18 +93,24 @@ Systems         │  Linux · CUDA / GPU · Python · Git
 
 📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com)
 
----
-
 <br/>
+
+<!-- ================================================================ -->
+<!--                           English Version                         -->
+<!-- ================================================================ -->
+
+<a name="en"></a>
 
 <div align="center">
 
 # Hi there 👋 I'm Kai Yang (lska367)
 
-**KV Cache · LLM Inference Optimization · Distributed Systems**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=1200&color=36BCF7&center=true&vCenter=true&width=560&lines=KV+Cache+%C2%B7+LLM+Inference+Optimization;Distributed+Systems;Measurement+First+%C2%B7+Reproducible+Design" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-blue?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github)](https://github.com/lska367)
+[![Followers](https://img.shields.io/github/followers/lska367?style=flat-square&logo=github&label=Followers)](https://github.com/lska367?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=lska367&style=flat-square&color=0366d6)](https://github.com/lska367)
 
 </div>
 
@@ -147,14 +167,14 @@ Measurements, reproductions, experiments
 
 ## 🌱 Tech Stack
 
-```text
-Deep Learning   │  PyTorch · HF Transformers · PEFT (LoRA / QLoRA / P-tuning)
-LLM Inference   │  vLLM (source-level) · KV Cache · Quantization / Scheduling
-Distributed     │  Ray Core / Train / Data · Distributed Training & Inference
-LLM Apps        │  LangChain / LangGraph · Multi-Agent · RAG · Context Engineering · LLM-as-Judge
-Federated       │  Flower (flwr) · Federated Label-Noise Learning
-Systems         │  Linux · CUDA / GPU · Python · Git
-```
+| Area | Stack |
+|:--:|:---|
+| **Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HF Transformers](https://img.shields.io/badge/HF_Transformers-FF9D00?style=flat-square&logo=huggingface&logoColor=white) ![PEFT](https://img.shields.io/badge/PEFT_%28LoRA_%2F_QLoRA_%2F_P--tuning%29-6B4FBB?style=flat-square) |
+| **LLM Inference** | ![vLLM](https://img.shields.io/badge/vLLM_%28source--level%29-0080FF?style=flat-square) ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Quantization / Scheduling](https://img.shields.io/badge/Quantization_%2F_Scheduling-5C4D7D?style=flat-square) |
+| **Distributed** | ![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square) |
+| **LLM Apps** | ![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square) |
+| **Federated** | ![Flower (flwr)](https://img.shields.io/badge/Flower_%28flwr%29-F2B705?style=flat-square) ![Label-Noise Learning](https://img.shields.io/badge/Label--Noise_Learning-607D8B?style=flat-square) |
+| **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 ## 🏆 Honors
 
@@ -164,14 +184,33 @@ Systems         │  Linux · CUDA / GPU · Python · Git
 
 📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com)
 
+<br/>
+
+<!-- ================================================================ -->
+<!--                            GitHub Stats                           -->
+<!-- ================================================================ -->
+
+## 📊 GitHub 数据 / Stats
+
+<div align="center">
+
+<a href="https://github.com/lska367">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=lska367&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub Stats" />
+</a>
+<a href="https://github.com/lska367">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lska367&layout=compact&theme=transparent&hide_border=true&langs_count=6" alt="Top Languages" />
+</a>
+
+<img src="https://streak-stats.demolab.com?user=lska367&theme=transparent&hide_border=true" alt="GitHub Streak" />
+
+</div>
+
 ---
 
-<<<<<<< HEAD
 <div align="center">
 
 *🌟 Measurement first; let the data speak.*
 
+**[⬆ 回到顶部](#zh)** · **[⬆ Back to top](#en)**
+
 </div>
-=======
-*🌟 Measurement first; let the data speak.*
->>>>>>> 68f448f494ede620efbeb5fdd4c1401f424e5721
