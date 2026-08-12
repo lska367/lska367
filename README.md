@@ -166,8 +166,12 @@ Systems         │  Linux · CUDA / GPU · Python · Git
 
 ---
 
+<<<<<<< HEAD
 <div align="center">
 
 *🌟 Measurement first; let the data speak.*
 
 </div>
+=======
+*🌟 Measurement first; let the data speak.*
+>>>>>>> 68f448f494ede620efbeb5fdd4c1401f424e5721
