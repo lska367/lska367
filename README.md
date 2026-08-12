@@ -37,29 +37,48 @@
 <table>
 <tr>
 <td width="33%" valign="top">
+<div align="center">
 
-### [vllm-sniffer](https://github.com/lska367/vllm-sniffer)
-非侵入式 vLLM 运行时 tracer  
+### 🔍 [vllm-sniffer](https://github.com/lska367/vllm-sniffer)
+
+![vLLM](https://img.shields.io/badge/vLLM-0080FF?style=flat-square) ![Status](https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square)
+
+**非侵入式 vLLM 运行时 tracer**
+
 观测调度 / 前向 / 采样 / KV cache 压力  
-定位 *temp=0 输出不一致* 的浮点根因  
-**零行为侵入** · 当前主力
+定位 *temp=0 输出不一致* 的浮点根因
 
+⭐ **零行为侵入** · 当前主力
+
+</div>
 </td>
 <td width="33%" valign="top">
+<div align="center">
 
-### [flwr4fnll](https://github.com/lska367/flwr4fnll)
-联邦标签噪声学习实验平台  
+### 🌸 [flwr4fnll](https://github.com/lska367/flwr4fnll)
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Flower](https://img.shields.io/badge/Flower-F2B705?style=flat-square) ![Status](https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square)
+
+**联邦标签噪声学习实验平台**
+
 噪声标签处理与算法对比框架  
 FedAvg / FedPAC / FedCorr 等
 
+</div>
 </td>
 <td width="33%" valign="top">
+<div align="center">
 
-### [kvcache_research](https://github.com/lska367/kvcache_research)
-KV Cache 研究笔记  
+### 📓 [kvcache_research](https://github.com/lska367/kvcache_research)
+
+![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Status](https://img.shields.io/badge/Status-Coming_Soon-E67E22?style=flat-square)
+
+**KV Cache 研究笔记**
+
 测量、复现与实验记录  
 *coming soon*
 
+</div>
 </td>
 </tr>
 </table>
@@ -128,29 +147,48 @@ KV Cache 研究笔记
 <table>
 <tr>
 <td width="33%" valign="top">
+<div align="center">
 
-### [vllm-sniffer](https://github.com/lska367/vllm-sniffer)
-Non-intrusive vLLM runtime tracer  
+### 🔍 [vllm-sniffer](https://github.com/lska367/vllm-sniffer)
+
+![vLLM](https://img.shields.io/badge/vLLM-0080FF?style=flat-square) ![Status](https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square)
+
+**Non-intrusive vLLM runtime tracer**
+
 Observes scheduling / forward / sampling / KV pressure  
-Pinpoints *temp=0 nondeterminism* root causes  
-**Zero behavior change** · main project
+Pinpoints *temp=0 nondeterminism* root causes
 
+⭐ **Zero behavior change** · main project
+
+</div>
 </td>
 <td width="33%" valign="top">
+<div align="center">
 
-### [flwr4fnll](https://github.com/lska367/flwr4fnll)
-Federated label-noise learning platform  
+### 🌸 [flwr4fnll](https://github.com/lska367/flwr4fnll)
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Flower](https://img.shields.io/badge/Flower-F2B705?style=flat-square) ![Status](https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square)
+
+**Federated label-noise learning platform**
+
 Noise-label handling & algorithm benchmarks  
 FedAvg / FedPAC / FedCorr, etc.
 
+</div>
 </td>
 <td width="33%" valign="top">
+<div align="center">
 
-### [kvcache_research](https://github.com/lska367/kvcache_research)
-KV Cache research notes  
+### 📓 [kvcache_research](https://github.com/lska367/kvcache_research)
+
+![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Status](https://img.shields.io/badge/Status-Coming_Soon-E67E22?style=flat-square)
+
+**KV Cache research notes**
+
 Measurements, reproductions, experiments  
 *coming soon*
 
+</div>
 </td>
 </tr>
 </table>
