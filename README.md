@@ -184,27 +184,6 @@ Measurements, reproductions, experiments
 
 📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com)
 
-<br/>
-
-<!-- ================================================================ -->
-<!--                            GitHub Stats                           -->
-<!-- ================================================================ -->
-
-## 📊 GitHub 数据 / Stats
-
-<div align="center">
-
-<a href="https://github.com/lska367">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=lska367&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub Stats" />
-</a>
-<a href="https://github.com/lska367">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lska367&layout=compact&theme=transparent&hide_border=true&langs_count=6" alt="Top Languages" />
-</a>
-
-<img src="https://streak-stats.demolab.com?user=lska367&theme=transparent&hide_border=true" alt="GitHub Streak" />
-
-</div>
-
 ---
 
 <div align="center">
