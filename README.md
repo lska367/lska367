@@ -90,8 +90,7 @@ FedAvg / FedPAC / FedCorr 等
 
 ## 💼 工作经历
 
-> **益普索（中国）咨询有限公司 · AI Lab**  
-> AI 算法实习生 · 2025.12 – 2026.02
+- [<img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Ipsos_logo.svg" width="22" align="absmiddle" />](https://www.ipsos.com) **益普索（中国）咨询有限公司 · AI Lab** — *AI 算法实习生* ｜ `2025.12 – 2026.02`
 
 ## 🌱 技术栈
 
@@ -200,8 +199,7 @@ Measurements, reproductions, experiments
 
 ## 💼 Experience
 
-> **Ipsos (China) · AI Lab**  
-> AI Algorithm Intern · 2025.12 – 2026.02
+- [<img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Ipsos_logo.svg" width="22" align="absmiddle" />](https://www.ipsos.com) **Ipsos (China) · AI Lab** — *AI Algorithm Intern* ｜ `2025.12 – 2026.02`
 
 ## 🌱 Tech Stack
 
