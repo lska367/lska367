@@ -14,7 +14,7 @@
 
 # Hi there 👋 我是杨锴（lska367）
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=1200&color=36BCF7&center=true&vCenter=true&width=560&lines=KV+Cache+%C2%B7+LLM+Inference+Optimization;Distributed+Systems;Measurement+First+%C2%B7+Reproducible+Design" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=1200&color=36BCF7&center=true&vCenter=true&width=560&lines=KV+Cache+%C2%B7+LLM+Inference+Optimization;Distributed+Systems;Reproducible+Design" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-blue?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github)](https://github.com/lska367)
@@ -24,6 +24,8 @@
 </div>
 
 ---
+
+> 🎯 **2026 年秋季入学华东师范大学（硕士）**，研究方向：**KV Cache / LLM 推理优化**。
 
 ## 🎓 学习经历
 
@@ -47,10 +49,10 @@
       <p align="center">⭐ <b>零行为侵入</b> · 当前主力</p>
     </td>
     <td width="33%" valign="top">
-      <h3 align="center">🌸 flwr4fnll</h3>
+      <h3 align="center">🌸 <a href="https://github.com/lska367/Fed-Framework">Fed-Framework</a></h3>
       <p align="center">
-        <a href="https://github.com/lska367/flwr4fnll"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"></a>
-        <a href="https://github.com/lska367/flwr4fnll"><img src="https://img.shields.io/badge/Flower-F2B705?style=flat-square" alt="Flower"></a>
+        <a href="https://github.com/lska367/Fed-Framework"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"></a>
+        <a href="https://github.com/lska367/Fed-Framework"><img src="https://img.shields.io/badge/Flower-F2B705?style=flat-square" alt="Flower"></a>
         <img src="https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square" alt="Status">
       </p>
       <p align="center"><b>联邦标签噪声学习实验平台</b></p>
@@ -72,8 +74,9 @@
 
 ## 🔭 目前在做
 
-- **KV Cache 量化 + 分层调度策略** — 从测量出发，做可复现的系统设计
+- **KV Cache 量化 + 分层调度策略** — 做可复现的系统设计
 - **分布式 LLM 推理与训练** — Ray（Core / Train / Data）、vLLM 源码级调优
+- **Kubernetes 分布式推理部署** — vLLM + Mooncake（KV Cache 跨节点传输）容器化实践
 
 ## 💼 工作经历
 
@@ -88,7 +91,7 @@
 | **Distributed** | ![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square) |
 | **LLM Apps** | ![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square) |
 | **Federated** | ![Flower (flwr)](https://img.shields.io/badge/Flower_%28flwr%29-F2B705?style=flat-square) ![Label-Noise Learning](https://img.shields.io/badge/Label--Noise_Learning-607D8B?style=flat-square) |
-| **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 
 ## 🏆 荣誉
 
@@ -96,7 +99,7 @@
 
 ## 📫 联系
 
-📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com)
+📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com) ｜ 欢迎交流 LLM 推理优化 / 联邦学习相关想法
 
 <br/>
 
@@ -110,7 +113,7 @@
 
 # Hi there 👋 I'm Kai Yang (lska367)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=1200&color=36BCF7&center=true&vCenter=true&width=560&lines=KV+Cache+%C2%B7+LLM+Inference+Optimization;Distributed+Systems;Measurement+First+%C2%B7+Reproducible+Design" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=1200&color=36BCF7&center=true&vCenter=true&width=560&lines=KV+Cache+%C2%B7+LLM+Inference+Optimization;Distributed+Systems;Reproducible+Design" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-blue?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github)](https://github.com/lska367)
@@ -121,11 +124,13 @@
 
 ---
 
+> 🎯 **Incoming M.S. student at ECNU (Fall 2026)**. Research focus: **KV Cache / LLM inference optimization**.
+
 ## 🎓 Education
 
 | Degree | School | Major | Period |
 |:------:|--------|-------|--------|
-| M.S. | **East China Normal University** · School of Computer Science and Technology | Artificial Intelligence *(recommended postgraduate)* | 2026.09 – |
+| M.S. | **East China Normal University** · School of Computer Science and Technology | Artificial Intelligence *(recommended admission)* | 2026.09 – |
 | B.S. | **Northeast Forestry University** · School of Computer and Artificial Intelligence | Data Science and Big Data Technology | 2022 – 2026 |
 
 ## 🚀 Projects
@@ -143,10 +148,10 @@
       <p align="center">⭐ <b>Zero behavior change</b> · main project</p>
     </td>
     <td width="33%" valign="top">
-      <h3 align="center">🌸 flwr4fnll</h3>
+      <h3 align="center">🌸 <a href="https://github.com/lska367/Fed-Framework">Fed-Framework</a></h3>
       <p align="center">
-        <a href="https://github.com/lska367/flwr4fnll"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"></a>
-        <a href="https://github.com/lska367/flwr4fnll"><img src="https://img.shields.io/badge/Flower-F2B705?style=flat-square" alt="Flower"></a>
+        <a href="https://github.com/lska367/Fed-Framework"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"></a>
+        <a href="https://github.com/lska367/Fed-Framework"><img src="https://img.shields.io/badge/Flower-F2B705?style=flat-square" alt="Flower"></a>
         <img src="https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square" alt="Status">
       </p>
       <p align="center"><b>Federated label-noise learning platform</b></p>
@@ -168,8 +173,9 @@
 
 ## 🔭 Currently
 
-- **KV cache quantization + layer-wise scheduling** — measurement-first, reproducible system design
+- **KV cache quantization + layer-wise scheduling** — reproducible system design
 - **Distributed LLM inference & training** — Ray (Core / Train / Data), vLLM source-level tuning
+- **Kubernetes for distributed inference** — containerized vLLM + Mooncake (cross-node KV cache transfer)
 
 ## 💼 Experience
 
@@ -184,7 +190,7 @@
 | **Distributed** | ![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square) |
 | **LLM Apps** | ![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square) |
 | **Federated** | ![Flower (flwr)](https://img.shields.io/badge/Flower_%28flwr%29-F2B705?style=flat-square) ![Label-Noise Learning](https://img.shields.io/badge/Label--Noise_Learning-607D8B?style=flat-square) |
-| **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 
 ## 🏆 Honors
 
@@ -192,13 +198,11 @@
 
 ## 📫 Contact
 
-📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com)
+📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com) ｜ Open to discuss LLM inference optimization / federated learning
 
 ---
 
 <div align="center">
-
-*🌟 Measurement first; let the data speak.*
 
 **[⬆ 回到顶部](#zh)** · **[⬆ Back to top](#en)**
 
