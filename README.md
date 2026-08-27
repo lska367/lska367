@@ -18,6 +18,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=1200&color=36BCF7&center=true&vCenter=true&width=560&lines=KV+Cache+%C2%B7+LLM+Inference+Optimization;Distributed+Systems;Reproducible+Design" alt="Typing SVG" />
 
+**✨ Make AI usable everywhere 🌍**
+
 [![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-blue?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github)](https://github.com/lska367)
 [![Followers](https://img.shields.io/github/followers/lska367?style=flat-square&logo=github&label=Followers)](https://github.com/lska367?tab=followers)
@@ -116,6 +118,8 @@
 # Hi there 👋 I'm Kai Yang (lska367)
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=1200&color=36BCF7&center=true&vCenter=true&width=560&lines=KV+Cache+%C2%B7+LLM+Inference+Optimization;Distributed+Systems;Reproducible+Design" alt="Typing SVG" />
+
+**✨ Make AI usable everywhere 🌍**
 
 [![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-blue?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github)](https://github.com/lska367)
