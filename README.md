@@ -22,6 +22,7 @@
 
 [![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-blue?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github)](https://github.com/lska367)
+[![Blog](https://img.shields.io/badge/Blog-lska367.github.io-FF5722?style=flat-square&logo=githubpages&logoColor=white)](https://lska367.github.io)
 [![Followers](https://img.shields.io/github/followers/lska367?style=flat-square&logo=github&label=Followers)](https://github.com/lska367?tab=followers)
 [![Profile Views](https://komarev.com/ghpvc/?username=lska367&style=flat-square&color=0366d6)](https://github.com/lska367)
 
@@ -103,7 +104,7 @@
 
 ## 📫 联系
 
-📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com) ｜ 欢迎交流 LLM 推理优化 / 联邦学习相关想法
+📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com) ｜ 📝 [个人博客](https://lska367.github.io) ｜ 欢迎交流 LLM 推理优化 / 联邦学习相关想法
 
 <br/>
 
@@ -123,6 +124,7 @@
 
 [![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-blue?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github)](https://github.com/lska367)
+[![Blog](https://img.shields.io/badge/Blog-lska367.github.io-FF5722?style=flat-square&logo=githubpages&logoColor=white)](https://lska367.github.io)
 [![Followers](https://img.shields.io/github/followers/lska367?style=flat-square&logo=github&label=Followers)](https://github.com/lska367?tab=followers)
 [![Profile Views](https://komarev.com/ghpvc/?username=lska367&style=flat-square&color=0366d6)](https://github.com/lska367)
 
@@ -204,7 +206,7 @@
 
 ## 📫 Contact
 
-📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com) ｜ Open to discuss LLM inference optimization / federated learning
+📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com) ｜ 📝 [Blog](https://lska367.github.io) ｜ Open to discuss LLM inference optimization / federated learning
 
 ---
 
