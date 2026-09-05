@@ -116,18 +116,9 @@
 
 <div align="center">
 
-<img src="https://ghchart.rshah.org/36BCF7/lska367" alt="Contribution Signal — lska367 的 GitHub 贡献日历" width="100%" />
+<img src="assets/activity-signal-zh.svg" alt="贡献信号：近 52 周贡献折线 · GitHub 统计 · 常用语言" width="100%" />
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats-one-bice.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
-    </td>
-    <td width="50%">
-      <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
-    </td>
-  </tr>
-</table>
+_图表由仓库内 GitHub Action 每日渲染并提交 SVG（不依赖任何第三方图片服务）_
 
 </div>
 
@@ -251,18 +242,9 @@
 
 <div align="center">
 
-<img src="https://ghchart.rshah.org/36BCF7/lska367" alt="Contribution Signal — lska367 的 GitHub 贡献日历" width="100%" />
+<img src="assets/activity-signal.svg" alt="Contribution signal: 52-week line chart · GitHub stats · most used languages" width="100%" />
 
-<table>
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats-one-bice.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
-    </td>
-    <td width="50%">
-      <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
-    </td>
-  </tr>
-</table>
+_Rendered daily and committed by an in-repo GitHub Action — no third-party image service involved._
 
 </div>
 
