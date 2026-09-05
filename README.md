@@ -116,15 +116,15 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=lska367&bg_color=0d1117&color=8b949e&line=36BCF7&point=36BCF7&area=true&area_color=123a5c&hide_border=true&custom_title=Contribution%20Signal" width="100%" />
+<img src="https://ghchart.rshah.org/36BCF7/lska367" alt="Contribution Signal — lska367 的 GitHub 贡献日历" width="100%" />
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
     </td>
   </tr>
 </table>
@@ -251,15 +251,15 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=lska367&bg_color=0d1117&color=8b949e&line=36BCF7&point=36BCF7&area=true&area_color=123a5c&hide_border=true&custom_title=Contribution%20Signal" width="100%" />
+<img src="https://ghchart.rshah.org/36BCF7/lska367" alt="Contribution Signal — lska367 的 GitHub 贡献日历" width="100%" />
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
     </td>
   </tr>
 </table>
