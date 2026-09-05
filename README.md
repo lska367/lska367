@@ -121,10 +121,10 @@
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats-one-bice.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
+      <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
     </td>
   </tr>
 </table>
@@ -256,10 +256,10 @@
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
+      <img src="https://github-readme-stats-one-bice.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
     </td>
     <td width="50%">
-      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
+      <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
     </td>
   </tr>
 </table>
