@@ -98,6 +98,39 @@
 | **Federated** | ![Flower (flwr)](https://img.shields.io/badge/Flower_%28flwr%29-F2B705?style=flat-square) ![Label-Noise Learning](https://img.shields.io/badge/Label--Noise_Learning-607D8B?style=flat-square) |
 | **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 
+## 🧰 Toolbox
+
+<div align="center">
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,cpp,c,latex,md,bash,linux,docker,kubernetes,git,github&theme=dark" />
+</a>
+
+<br/>
+
+`LLM 推理优化` · `KV Cache` · `分布式系统` · `性能分析` · `可复现设计` · `ship → measure → iterate`
+
+</div>
+
+## 📊 Activity Signal
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=lska367&bg_color=0d1117&color=8b949e&line=36BCF7&point=36BCF7&area=true&area_color=123a5c&hide_border=true&custom_title=Contribution%20Signal" width="100%" />
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
 ## 🏆 荣誉
 
 - 东北林业大学 2025 年度 **国家励志奖学金**
@@ -199,6 +232,39 @@
 | **LLM Apps** | ![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square) |
 | **Federated** | ![Flower (flwr)](https://img.shields.io/badge/Flower_%28flwr%29-F2B705?style=flat-square) ![Label-Noise Learning](https://img.shields.io/badge/Label--Noise_Learning-607D8B?style=flat-square) |
 | **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+
+## 🧰 Toolbox
+
+<div align="center">
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,cpp,c,latex,md,bash,linux,docker,kubernetes,git,github&theme=dark" />
+</a>
+
+<br/>
+
+`LLM inference` · `KV cache` · `distributed systems` · `performance profiling` · `reproducible design` · `ship → measure → iterate`
+
+</div>
+
+## 📊 Activity Signal
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=lska367&bg_color=0d1117&color=8b949e&line=36BCF7&point=36BCF7&area=true&area_color=123a5c&hide_border=true&custom_title=Contribution%20Signal" width="100%" />
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=lska367&show_icons=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&icon_color=36BCF7&border_color=21262d&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
+    </td>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lska367&layout=compact&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&border_color=21262d&langs_count=8" alt="Most Used Languages" width="100%" />
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ## 🏆 Honors
 
