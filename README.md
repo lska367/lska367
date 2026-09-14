@@ -118,8 +118,6 @@
 
 <img src="assets/activity-signal-zh.svg" alt="贡献信号：近 52 周贡献折线 · GitHub 统计 · 常用语言" width="100%" />
 
-_图表由仓库内 GitHub Action 每日渲染并提交 SVG（不依赖任何第三方图片服务）_
-
 </div>
 
 ## 🏆 荣誉
@@ -244,7 +242,6 @@ _图表由仓库内 GitHub Action 每日渲染并提交 SVG（不依赖任何第
 
 <img src="assets/activity-signal.svg" alt="Contribution signal: 52-week line chart · GitHub stats · most used languages" width="100%" />
 
-_Rendered daily and committed by an in-repo GitHub Action — no third-party image service involved._
 
 </div>
 
