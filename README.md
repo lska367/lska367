@@ -30,7 +30,7 @@
 
 ---
 
-> 🎯 **2026 年秋季入学华东师范大学（硕士）**，研究方向：**KV Cache / LLM 推理优化**。
+> 🎯 **华东师范大学 · 2026 级硕士（保研）在读**，研究方向：**KV Cache / LLM 推理优化**。
 
 ## 🎓 学习经历
 
@@ -44,13 +44,15 @@
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3 align="center">🔍 vllm-sniffer</h3>
+      <h3 align="center">🔍 <a href="https://github.com/lska367/vllm-sniffer">vllm-sniffer</a></h3>
       <p align="center">
         <a href="https://github.com/lska367/vllm-sniffer"><img src="https://img.shields.io/badge/vLLM-0080FF?style=flat-square" alt="vLLM"></a>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
         <img src="https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square" alt="Status">
       </p>
       <p align="center"><b>非侵入式 vLLM 运行时 tracer</b></p>
-      <p align="center">观测调度 / 前向 / 采样 / KV cache 压力<br>定位 <i>temp=0 输出不一致</i> 的浮点根因</p>
+      <p align="center">观测调度 / 前向 / 采样 / KV cache 压力<br>定位 <i>temp=0 输出不一致</i> 的浮点根因<br>含分析工具（parquet/TTFT/flip 归因）与可视化前端</p>
+      <p align="center"><img src="https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars" alt="Stars"></p>
       <p align="center">⭐ <b>零行为侵入</b> · 当前主力</p>
     </td>
     <td width="33%" valign="top">
@@ -154,7 +156,7 @@
 
 ---
 
-> 🎯 **Incoming M.S. student at ECNU (Fall 2026)**. Research focus: **KV Cache / LLM inference optimization**.
+> 🎯 **M.S. student at ECNU (class of 2026, recommended admission)**. Research focus: **KV Cache / LLM inference optimization**.
 
 ## 🎓 Education
 
@@ -168,13 +170,15 @@
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3 align="center">🔍 vllm-sniffer</h3>
+      <h3 align="center">🔍 <a href="https://github.com/lska367/vllm-sniffer">vllm-sniffer</a></h3>
       <p align="center">
         <a href="https://github.com/lska367/vllm-sniffer"><img src="https://img.shields.io/badge/vLLM-0080FF?style=flat-square" alt="vLLM"></a>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
         <img src="https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square" alt="Status">
       </p>
       <p align="center"><b>Non-intrusive vLLM runtime tracer</b></p>
-      <p align="center">Observes scheduling / forward / sampling / KV pressure<br>Pinpoints <i>temp=0 nondeterminism</i> root causes</p>
+      <p align="center">Observes scheduling / forward / sampling / KV pressure<br>Pinpoints <i>temp=0 nondeterminism</i> root causes<br>Analysis tools (parquet / TTFT / flip attribution) + offline webapp</p>
+      <p align="center"><img src="https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars" alt="Stars"></p>
       <p align="center">⭐ <b>Zero behavior change</b> · main project</p>
     </td>
     <td width="33%" valign="top">
