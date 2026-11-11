@@ -30,7 +30,7 @@
 
 ---
 
-> 🎯 **华东师范大学 · 2026 级硕士（保研）在读**，研究方向：**KV Cache / LLM 推理优化**。
+> 🎯 **华东师范大学 · 人工智能硕士在读**（2026.09 入学）｜ 目前在 **字节跳动 · 国际化广告与交易部门** 做大数据开发实习，负责 TikTok 广告业务的转化归因算法与数据链路优化。
 
 ## 🎓 学习经历
 
@@ -43,7 +43,7 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="49%" valign="top">
       <h3 align="center">🔍 <a href="https://github.com/lska367/vllm-sniffer">vllm-sniffer</a></h3>
       <p align="center">
         <a href="https://github.com/lska367/vllm-sniffer"><img src="https://img.shields.io/badge/vLLM-0080FF?style=flat-square" alt="vLLM"></a>
@@ -55,18 +55,7 @@
       <p align="center"><img src="https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars" alt="Stars"></p>
       <p align="center">⭐ <b>零行为侵入</b> · 当前主力</p>
     </td>
-    <td width="33%" valign="top">
-      <h3 align="center">🌸 <a href="https://github.com/lska367/Fed-Framework">Fed-Framework</a></h3>
-      <p align="center">
-        <a href="https://github.com/lska367/Fed-Framework"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"></a>
-        <a href="https://github.com/lska367/Fed-Framework"><img src="https://img.shields.io/badge/Flower-F2B705?style=flat-square" alt="Flower"></a>
-        <img src="https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square" alt="Status">
-      </p>
-      <p align="center"><b>联邦标签噪声学习实验平台</b></p>
-      <p align="center">噪声标签处理与算法对比框架<br>FedAvg / FedPAC / FedCorr 等</p>
-      <p align="center">🌀 <b>研究实验与基准</b></p>
-    </td>
-    <td width="33%" valign="top">
+    <td width="49%" valign="top">
       <h3 align="center">📓 kvcache_research</h3>
       <p align="center">
         <a href="https://github.com/lska367/kvcache_research"><img src="https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square" alt="KV Cache"></a>
@@ -81,12 +70,15 @@
 
 ## 🔭 目前在做
 
+- **广告转化归因与数据链路** — TikTok 广告业务的归因算法迭代与数据链路优化（字节跳动实习）
 - **KV Cache 量化 + 分层调度策略** — 做可复现的系统设计
 - **分布式 LLM 推理与训练** — Ray（Core / Train / Data）、vLLM 源码级调优
 - **Kubernetes 分布式推理部署** — vLLM + Mooncake（KV Cache 跨节点传输）容器化实践
 
 ## 💼 工作经历
 
+- **字节跳动 · 国际化广告与交易部门** — *大数据开发实习生* ｜ `2026.11 –`
+  - 负责 TikTok 广告业务的转化归因算法与数据链路优化
 - **益普索（中国）咨询有限公司 · AI Lab** — *AI 算法实习生* ｜ `2025.12 – 2026.02`
 
 ## 🌱 技术栈
@@ -97,7 +89,6 @@
 | **LLM Inference** | ![vLLM](https://img.shields.io/badge/vLLM_%28source--level%29-0080FF?style=flat-square) ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Quantization / Scheduling](https://img.shields.io/badge/Quantization_%2F_Scheduling-5C4D7D?style=flat-square) |
 | **Distributed** | ![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square) |
 | **LLM Apps** | ![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square) |
-| **Federated** | ![Flower (flwr)](https://img.shields.io/badge/Flower_%28flwr%29-F2B705?style=flat-square) ![Label-Noise Learning](https://img.shields.io/badge/Label--Noise_Learning-607D8B?style=flat-square) |
 | **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 
 ## 🧰 Toolbox
@@ -128,7 +119,7 @@
 
 ## 📫 联系
 
-📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com) ｜ 📝 [个人博客](https://lska367.github.io) ｜ 欢迎交流 LLM 推理优化 / 联邦学习相关想法
+📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com) ｜ 📝 [个人博客](https://lska367.github.io) ｜ 欢迎交流 LLM 推理优化 / 大数据开发相关想法
 
 <br/>
 
@@ -156,7 +147,7 @@
 
 ---
 
-> 🎯 **M.S. student at ECNU (class of 2026, recommended admission)**. Research focus: **KV Cache / LLM inference optimization**.
+> 🎯 **M.S. student in Artificial Intelligence at East China Normal University** (since Sep 2026) ｜ Currently a **Big Data Development Intern at ByteDance · International Ads & Transactions**, working on conversion attribution and data pipelines for TikTok Ads.
 
 ## 🎓 Education
 
@@ -169,7 +160,7 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="49%" valign="top">
       <h3 align="center">🔍 <a href="https://github.com/lska367/vllm-sniffer">vllm-sniffer</a></h3>
       <p align="center">
         <a href="https://github.com/lska367/vllm-sniffer"><img src="https://img.shields.io/badge/vLLM-0080FF?style=flat-square" alt="vLLM"></a>
@@ -181,18 +172,7 @@
       <p align="center"><img src="https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars" alt="Stars"></p>
       <p align="center">⭐ <b>Zero behavior change</b> · main project</p>
     </td>
-    <td width="33%" valign="top">
-      <h3 align="center">🌸 <a href="https://github.com/lska367/Fed-Framework">Fed-Framework</a></h3>
-      <p align="center">
-        <a href="https://github.com/lska367/Fed-Framework"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"></a>
-        <a href="https://github.com/lska367/Fed-Framework"><img src="https://img.shields.io/badge/Flower-F2B705?style=flat-square" alt="Flower"></a>
-        <img src="https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square" alt="Status">
-      </p>
-      <p align="center"><b>Federated label-noise learning platform</b></p>
-      <p align="center">Noise-label handling & algorithm benchmarks<br>FedAvg / FedPAC / FedCorr, etc.</p>
-      <p align="center">🌀 <b>Research experiments & benchmarks</b></p>
-    </td>
-    <td width="33%" valign="top">
+    <td width="49%" valign="top">
       <h3 align="center">📓 kvcache_research</h3>
       <p align="center">
         <a href="https://github.com/lska367/kvcache_research"><img src="https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square" alt="KV Cache"></a>
@@ -207,12 +187,15 @@
 
 ## 🔭 Currently
 
+- **Ads conversion attribution & data pipelines** — attribution algorithms and pipeline optimization for TikTok Ads (ByteDance internship)
 - **KV cache quantization + layer-wise scheduling** — reproducible system design
 - **Distributed LLM inference & training** — Ray (Core / Train / Data), vLLM source-level tuning
 - **Kubernetes for distributed inference** — containerized vLLM + Mooncake (cross-node KV cache transfer)
 
 ## 💼 Experience
 
+- **ByteDance · International Ads & Transactions** — *Big Data Development Intern* ｜ `2026.11 –`
+  - Conversion attribution algorithms and data pipeline optimization for TikTok Ads
 - **Ipsos (China) · AI Lab** — *AI Algorithm Intern* ｜ `2025.12 – 2026.02`
 
 ## 🌱 Tech Stack
@@ -223,7 +206,6 @@
 | **LLM Inference** | ![vLLM](https://img.shields.io/badge/vLLM_%28source--level%29-0080FF?style=flat-square) ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Quantization / Scheduling](https://img.shields.io/badge/Quantization_%2F_Scheduling-5C4D7D?style=flat-square) |
 | **Distributed** | ![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square) |
 | **LLM Apps** | ![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square) |
-| **Federated** | ![Flower (flwr)](https://img.shields.io/badge/Flower_%28flwr%29-F2B705?style=flat-square) ![Label-Noise Learning](https://img.shields.io/badge/Label--Noise_Learning-607D8B?style=flat-square) |
 | **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 
 ## 🧰 Toolbox
@@ -255,7 +237,7 @@
 
 ## 📫 Contact
 
-📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com) ｜ 📝 [Blog](https://lska367.github.io) ｜ Open to discuss LLM inference optimization / federated learning
+📧 [yangkamboy@outlook.com](mailto:yangkamboy@outlook.com) ｜ 📝 [Blog](https://lska367.github.io) ｜ Open to discuss LLM inference optimization / big data engineering
 
 ---
 
