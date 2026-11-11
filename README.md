@@ -1,36 +1,22 @@
-<img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600&h=400&fit=crop&q=80&fm=jpg" alt="banner" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="Kai Yang — Big Data Development Intern at ByteDance; M.S. in AI at ECNU" width="100%">
+</picture>
 
 <div align="center">
-
-**[中文](#zh)** · **[English](#en)**
-
-</div>
-
-<!-- ================================================================ -->
-<!--                              中文版                               -->
-<!-- ================================================================ -->
-
-<a name="zh"></a>
-
-<div align="center">
-
-# Hi there 👋 我是杨锴（lska367）
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=1200&color=36BCF7&center=true&vCenter=true&width=560&lines=KV+Cache+%C2%B7+LLM+Inference+Optimization;Distributed+Systems;Reproducible+Design" alt="Typing SVG" />
 
 **✨ Make AI usable everywhere 🌍**
 
-[![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-blue?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
-[![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github)](https://github.com/lska367)
+[![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-EA4335?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
+[![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/lska367)
 [![Blog](https://img.shields.io/badge/Blog-lska367.github.io-FF5722?style=flat-square&logo=githubpages&logoColor=white)](https://lska367.github.io)
-[![Followers](https://img.shields.io/github/followers/lska367?style=flat-square&logo=github&label=Followers)](https://github.com/lska367?tab=followers)
-[![Profile Views](https://komarev.com/ghpvc/?username=lska367&style=flat-square&color=0366d6)](https://github.com/lska367)
+[![Followers](https://img.shields.io/github/followers/lska367?style=flat-square&logo=github&label=Followers&color=2563EB)](https://github.com/lska367?tab=followers)
 
 </div>
 
----
-
-> 🎯 **华东师范大学 · 人工智能硕士在读**（2026.09 入学）｜ 目前在 **字节跳动 · 国际化广告与交易部门** 做大数据开发实习，负责 TikTok 广告业务的转化归因算法与数据链路优化。
+> 🎓 **华东师范大学 · 人工智能硕士在读**（2026.09 –）
+>
+> 💼 **字节跳动 · 国际化广告与交易部门** — 大数据开发实习生（2026.11 –）｜ TikTok 广告转化归因算法与数据链路优化
 
 ## 🎓 学习经历
 
@@ -41,32 +27,17 @@
 
 ## 🚀 项目
 
-<table>
-  <tr>
-    <td width="49%" valign="top">
-      <h3 align="center">🔍 <a href="https://github.com/lska367/vllm-sniffer">vllm-sniffer</a></h3>
-      <p align="center">
-        <a href="https://github.com/lska367/vllm-sniffer"><img src="https://img.shields.io/badge/vLLM-0080FF?style=flat-square" alt="vLLM"></a>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square" alt="Status">
-      </p>
-      <p align="center"><b>非侵入式 vLLM 运行时 tracer</b></p>
-      <p align="center">观测调度 / 前向 / 采样 / KV cache 压力<br>定位 <i>temp=0 输出不一致</i> 的浮点根因<br>含分析工具（parquet/TTFT/flip 归因）与可视化前端</p>
-      <p align="center"><img src="https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars" alt="Stars"></p>
-      <p align="center">⭐ <b>零行为侵入</b> · 当前主力</p>
-    </td>
-    <td width="49%" valign="top">
-      <h3 align="center">📓 kvcache_research</h3>
-      <p align="center">
-        <a href="https://github.com/lska367/kvcache_research"><img src="https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square" alt="KV Cache"></a>
-        <img src="https://img.shields.io/badge/Status-Coming_Soon-E67E22?style=flat-square" alt="Status">
-      </p>
-      <p align="center"><b>KV Cache 研究笔记</b></p>
-      <p align="center">测量、复现与实验记录<br><i>coming soon</i></p>
-      <p align="center">📝 <b>持续沉淀</b></p>
-    </td>
-  </tr>
-</table>
+### 🔍 [vllm-sniffer](https://github.com/lska367/vllm-sniffer) &nbsp; ![vLLM](https://img.shields.io/badge/vLLM-0080FF?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars&color=2563EB)
+
+**非侵入式 vLLM 运行时 tracer** — 观测调度 / 前向 / 采样 / KV cache 压力，定位 `temp=0` 输出不一致的浮点根因；含分析工具（parquet / TTFT / flip 归因）与可视化前端。
+
+<sub>零行为侵入 · 当前主力 · [源码仓库 →](https://github.com/lska367/vllm-sniffer)</sub>
+
+### 📓 [kvcache_research](https://github.com/lska367/kvcache_research) &nbsp; ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Status](https://img.shields.io/badge/Status-WIP-E67E22?style=flat-square)
+
+**KV Cache 研究笔记** — 论文精读、测量与复现记录，整理中。
+
+<sub>可复现实验 · [源码仓库 →](https://github.com/lska367/kvcache_research)</sub>
 
 ## 🔭 目前在做
 
@@ -84,28 +55,15 @@
 ## 🌱 技术栈
 
 | 方向 | 技术 |
-|:--:|:---|
-| **Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HF Transformers](https://img.shields.io/badge/HF_Transformers-FF9D00?style=flat-square&logo=huggingface&logoColor=white) ![PEFT](https://img.shields.io/badge/PEFT_%28LoRA_%2F_QLoRA_%2F_P--tuning%29-6B4FBB?style=flat-square) |
+|:--:|:--:|
+| **Data Engineering** | ![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![Flink](https://img.shields.io/badge/Flink-E6526F?style=flat-square&logo=apacheflink&logoColor=white) ![Hive](https://img.shields.io/badge/Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black) ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square) |
 | **LLM Inference** | ![vLLM](https://img.shields.io/badge/vLLM_%28source--level%29-0080FF?style=flat-square) ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Quantization / Scheduling](https://img.shields.io/badge/Quantization_%2F_Scheduling-5C4D7D?style=flat-square) |
 | **Distributed** | ![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square) |
+| **Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HF Transformers](https://img.shields.io/badge/HF_Transformers-FF9D00?style=flat-square&logo=huggingface&logoColor=white) ![PEFT](https://img.shields.io/badge/PEFT_%28LoRA_%2F_QLoRA_%2F_P--tuning%29-6B4FBB?style=flat-square) |
 | **LLM Apps** | ![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square) |
-| **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| **Storage & Systems** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
-## 🧰 Toolbox
-
-<div align="center">
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,cpp,c,latex,md,bash,linux,docker,kubernetes,git,github&theme=dark" />
-</a>
-
-<br/>
-
-`LLM 推理优化` · `KV Cache` · `分布式系统` · `性能分析` · `可复现设计` · `ship → measure → iterate`
-
-</div>
-
-## 📊 Activity Signal
+## 📈 活跃度信号
 
 <div align="center">
 
@@ -127,27 +85,26 @@
 <!--                           English Version                         -->
 <!-- ================================================================ -->
 
-<a name="en"></a>
+<details>
+<summary><b>🇬🇧 English version</b></summary>
+
+<br>
 
 <div align="center">
 
-# Hi there 👋 I'm Kai Yang (lska367)
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2800&pause=1200&color=36BCF7&center=true&vCenter=true&width=560&lines=KV+Cache+%C2%B7+LLM+Inference+Optimization;Distributed+Systems;Reproducible+Design" alt="Typing SVG" />
+## Hi there 👋 I'm Kai Yang (lska367)
 
 **✨ Make AI usable everywhere 🌍**
 
-[![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-blue?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
-[![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github)](https://github.com/lska367)
+[![Email](https://img.shields.io/badge/email-yangkamboy%40outlook.com-EA4335?style=flat-square&logo=microsoftoutlook&logoColor=white)](mailto:yangkamboy@outlook.com)
+[![GitHub](https://img.shields.io/badge/GitHub-lska367-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/lska367)
 [![Blog](https://img.shields.io/badge/Blog-lska367.github.io-FF5722?style=flat-square&logo=githubpages&logoColor=white)](https://lska367.github.io)
-[![Followers](https://img.shields.io/github/followers/lska367?style=flat-square&logo=github&label=Followers)](https://github.com/lska367?tab=followers)
-[![Profile Views](https://komarev.com/ghpvc/?username=lska367&style=flat-square&color=0366d6)](https://github.com/lska367)
 
 </div>
 
----
-
-> 🎯 **M.S. student in Artificial Intelligence at East China Normal University** (since Sep 2026) ｜ Currently a **Big Data Development Intern at ByteDance · International Ads & Transactions**, working on conversion attribution and data pipelines for TikTok Ads.
+> 🎓 **M.S. in Artificial Intelligence** · East China Normal University (2026.09 –)
+>
+> 💼 **Big Data Development Intern** · ByteDance, International Ads & Transactions (2026.11 –) — TikTok Ads conversion attribution & data pipelines
 
 ## 🎓 Education
 
@@ -158,32 +115,17 @@
 
 ## 🚀 Projects
 
-<table>
-  <tr>
-    <td width="49%" valign="top">
-      <h3 align="center">🔍 <a href="https://github.com/lska367/vllm-sniffer">vllm-sniffer</a></h3>
-      <p align="center">
-        <a href="https://github.com/lska367/vllm-sniffer"><img src="https://img.shields.io/badge/vLLM-0080FF?style=flat-square" alt="vLLM"></a>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-        <img src="https://img.shields.io/badge/Status-Active-2EA44F?style=flat-square" alt="Status">
-      </p>
-      <p align="center"><b>Non-intrusive vLLM runtime tracer</b></p>
-      <p align="center">Observes scheduling / forward / sampling / KV pressure<br>Pinpoints <i>temp=0 nondeterminism</i> root causes<br>Analysis tools (parquet / TTFT / flip attribution) + offline webapp</p>
-      <p align="center"><img src="https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars" alt="Stars"></p>
-      <p align="center">⭐ <b>Zero behavior change</b> · main project</p>
-    </td>
-    <td width="49%" valign="top">
-      <h3 align="center">📓 kvcache_research</h3>
-      <p align="center">
-        <a href="https://github.com/lska367/kvcache_research"><img src="https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square" alt="KV Cache"></a>
-        <img src="https://img.shields.io/badge/Status-Coming_Soon-E67E22?style=flat-square" alt="Status">
-      </p>
-      <p align="center"><b>KV Cache research notes</b></p>
-      <p align="center">Measurements, reproductions, experiments<br><i>coming soon</i></p>
-      <p align="center">📝 <b>Ongoing notes</b></p>
-    </td>
-  </tr>
-</table>
+### 🔍 [vllm-sniffer](https://github.com/lska367/vllm-sniffer) &nbsp; ![vLLM](https://img.shields.io/badge/vLLM-0080FF?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars&color=2563EB)
+
+**Non-intrusive vLLM runtime tracer** — observes scheduling / forward / sampling / KV-cache pressure and root-causes `temp=0` output divergence; ships analysis tools (parquet / TTFT / flip attribution) and an offline webapp.
+
+<sub>Zero behavior change · main project · [Repository →](https://github.com/lska367/vllm-sniffer)</sub>
+
+### 📓 [kvcache_research](https://github.com/lska367/kvcache_research) &nbsp; ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Status](https://img.shields.io/badge/Status-WIP-E67E22?style=flat-square)
+
+**KV-cache research notes** — paper reading, measurements and reproduction logs, work in progress.
+
+<sub>Reproducible experiments · [Repository →](https://github.com/lska367/kvcache_research)</sub>
 
 ## 🔭 Currently
 
@@ -201,26 +143,13 @@
 ## 🌱 Tech Stack
 
 | Area | Stack |
-|:--:|:---|
-| **Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HF Transformers](https://img.shields.io/badge/HF_Transformers-FF9D00?style=flat-square&logo=huggingface&logoColor=white) ![PEFT](https://img.shields.io/badge/PEFT_%28LoRA_%2F_QLoRA_%2F_P--tuning%29-6B4FBB?style=flat-square) |
+|:--:|:--:|
+| **Data Engineering** | ![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![Flink](https://img.shields.io/badge/Flink-E6526F?style=flat-square&logo=apacheflink&logoColor=white) ![Hive](https://img.shields.io/badge/Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black) ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square) |
 | **LLM Inference** | ![vLLM](https://img.shields.io/badge/vLLM_%28source--level%29-0080FF?style=flat-square) ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Quantization / Scheduling](https://img.shields.io/badge/Quantization_%2F_Scheduling-5C4D7D?style=flat-square) |
 | **Distributed** | ![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square) |
+| **Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HF Transformers](https://img.shields.io/badge/HF_Transformers-FF9D00?style=flat-square&logo=huggingface&logoColor=white) ![PEFT](https://img.shields.io/badge/PEFT_%28LoRA_%2F_QLoRA_%2F_P--tuning%29-6B4FBB?style=flat-square) |
 | **LLM Apps** | ![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square) |
-| **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
-
-## 🧰 Toolbox
-
-<div align="center">
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,cpp,c,latex,md,bash,linux,docker,kubernetes,git,github&theme=dark" />
-</a>
-
-<br/>
-
-`LLM inference` · `KV cache` · `distributed systems` · `performance profiling` · `reproducible design` · `ship → measure → iterate`
-
-</div>
+| **Storage & Systems** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 ## 📊 Activity Signal
 
@@ -241,8 +170,14 @@
 
 ---
 
+</details>
+
+---
+
 <div align="center">
 
-**[⬆ 回到顶部](#zh)** · **[⬆ Back to top](#en)**
+<sub>© 2026 Kai Yang · 杨锴</sub>
+
+![Profile Views](https://komarev.com/ghpvc/?username=lska367&style=flat-square&color=2563EB&label=profile+views)
 
 </div>
