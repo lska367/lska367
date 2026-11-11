@@ -1,6 +1,4 @@
 <picture>
-  <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/banner-compact-dark.svg">
-  <source media="(max-width: 700px)" srcset="assets/banner-compact-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
   <img src="assets/banner-light.svg" alt="Kai Yang — Big Data Development Intern at ByteDance; M.S. in AI at ECNU" width="100%">
 </picture>
@@ -22,22 +20,20 @@
 
 ## 🎓 学习经历
 
-- **硕士** · 华东师范大学 · 计算机科学与技术学院 — 人工智能（保研）｜ `2026.09 –`
-- **本科** · 东北林业大学 · 计算机与人工智能学院 — 数据科学与大数据技术 ｜ `2022 – 2026`
+| 阶段 | 学校 | 专业 | 时间 |
+|:----:|------|------|------|
+| 硕士 | **华东师范大学** · 计算机科学与技术学院 | 人工智能（保研） | 2026.09 – |
+| 本科 | **东北林业大学** · 计算机与人工智能学院 | 数据科学与大数据技术 | 2022 – 2026 |
 
 ## 🚀 项目
 
-### 🔍 [vllm-sniffer](https://github.com/lska367/vllm-sniffer)
-
-![vLLM](https://img.shields.io/badge/vLLM-0080FF?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars&color=2563EB)
+### 🔍 [vllm-sniffer](https://github.com/lska367/vllm-sniffer) &nbsp; ![vLLM](https://img.shields.io/badge/vLLM-0080FF?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars&color=2563EB)
 
 **非侵入式 vLLM 运行时 tracer** — 观测调度 / 前向 / 采样 / KV cache 压力，定位 `temp=0` 输出不一致的浮点根因；含分析工具（parquet / TTFT / flip 归因）与可视化前端。
 
 <sub>零行为侵入 · 当前主力 · [源码仓库 →](https://github.com/lska367/vllm-sniffer)</sub>
 
-### 📓 [kvcache_research](https://github.com/lska367/kvcache_research)
-
-![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Status](https://img.shields.io/badge/Status-WIP-E67E22?style=flat-square)
+### 📓 [kvcache_research](https://github.com/lska367/kvcache_research) &nbsp; ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Status](https://img.shields.io/badge/Status-WIP-E67E22?style=flat-square)
 
 **KV Cache 研究笔记** — 论文精读、测量与复现记录，整理中。
 
@@ -58,34 +54,20 @@
 
 ## 🌱 技术栈
 
-**Data Engineering**<br>
-![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![Flink](https://img.shields.io/badge/Flink-E6526F?style=flat-square&logo=apacheflink&logoColor=white) ![Hive](https://img.shields.io/badge/Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black) ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square)
-
-**LLM Inference**<br>
-![vLLM](https://img.shields.io/badge/vLLM_%28source--level%29-0080FF?style=flat-square) ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Quantization / Scheduling](https://img.shields.io/badge/Quantization_%2F_Scheduling-5C4D7D?style=flat-square)
-
-**Distributed**<br>
-![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square)
-
-**Deep Learning**<br>
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HF Transformers](https://img.shields.io/badge/HF_Transformers-FF9D00?style=flat-square&logo=huggingface&logoColor=white) ![PEFT](https://img.shields.io/badge/PEFT_%28LoRA_%2F_QLoRA_%2F_P--tuning%29-6B4FBB?style=flat-square)
-
-**LLM Apps**<br>
-![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square)
-
-**Storage & Systems**<br>
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+| 方向 | 技术 |
+|:--:|:--:|
+| **Data Engineering** | ![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![Flink](https://img.shields.io/badge/Flink-E6526F?style=flat-square&logo=apacheflink&logoColor=white) ![Hive](https://img.shields.io/badge/Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black) ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square) |
+| **LLM Inference** | ![vLLM](https://img.shields.io/badge/vLLM_%28source--level%29-0080FF?style=flat-square) ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Quantization / Scheduling](https://img.shields.io/badge/Quantization_%2F_Scheduling-5C4D7D?style=flat-square) |
+| **Distributed** | ![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square) |
+| **Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HF Transformers](https://img.shields.io/badge/HF_Transformers-FF9D00?style=flat-square&logo=huggingface&logoColor=white) ![PEFT](https://img.shields.io/badge/PEFT_%28LoRA_%2F_QLoRA_%2F_P--tuning%29-6B4FBB?style=flat-square) |
+| **LLM Apps** | ![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square) |
+| **Storage & Systems** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 ## 📈 活跃度信号
 
 <div align="center">
 
-<picture>
-  <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/activity-signal-mobile-dark-zh.svg">
-  <source media="(max-width: 700px)" srcset="assets/activity-signal-mobile-light-zh.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-signal-zh.svg">
-  <img src="assets/activity-signal-light-zh.svg" alt="贡献信号：近 52 周贡献折线 · GitHub 统计 · 常用语言" width="100%">
-</picture>
+<img src="assets/activity-signal-zh.svg" alt="贡献信号：近 52 周贡献折线 · GitHub 统计 · 常用语言" width="100%" />
 
 </div>
 
@@ -126,22 +108,20 @@
 
 ## 🎓 Education
 
-- **M.S.** · East China Normal University · School of Computer Science and Technology — Artificial Intelligence *(recommended admission)* ｜ `2026.09 –`
-- **B.S.** · Northeast Forestry University · School of Computer and Artificial Intelligence — Data Science and Big Data Technology ｜ `2022 – 2026`
+| Degree | School | Major | Period |
+|:------:|--------|-------|--------|
+| M.S. | **East China Normal University** · School of Computer Science and Technology | Artificial Intelligence *(recommended admission)* | 2026.09 – |
+| B.S. | **Northeast Forestry University** · School of Computer and Artificial Intelligence | Data Science and Big Data Technology | 2022 – 2026 |
 
 ## 🚀 Projects
 
-### 🔍 [vllm-sniffer](https://github.com/lska367/vllm-sniffer)
-
-![vLLM](https://img.shields.io/badge/vLLM-0080FF?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars&color=2563EB)
+### 🔍 [vllm-sniffer](https://github.com/lska367/vllm-sniffer) &nbsp; ![vLLM](https://img.shields.io/badge/vLLM-0080FF?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/lska367/vllm-sniffer?style=flat-square&logo=github&label=Stars&color=2563EB)
 
 **Non-intrusive vLLM runtime tracer** — observes scheduling / forward / sampling / KV-cache pressure and root-causes `temp=0` output divergence; ships analysis tools (parquet / TTFT / flip attribution) and an offline webapp.
 
 <sub>Zero behavior change · main project · [Repository →](https://github.com/lska367/vllm-sniffer)</sub>
 
-### 📓 [kvcache_research](https://github.com/lska367/kvcache_research)
-
-![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Status](https://img.shields.io/badge/Status-WIP-E67E22?style=flat-square)
+### 📓 [kvcache_research](https://github.com/lska367/kvcache_research) &nbsp; ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Status](https://img.shields.io/badge/Status-WIP-E67E22?style=flat-square)
 
 **KV-cache research notes** — paper reading, measurements and reproduction logs, work in progress.
 
@@ -162,34 +142,20 @@
 
 ## 🌱 Tech Stack
 
-**Data Engineering**<br>
-![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![Flink](https://img.shields.io/badge/Flink-E6526F?style=flat-square&logo=apacheflink&logoColor=white) ![Hive](https://img.shields.io/badge/Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black) ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square)
-
-**LLM Inference**<br>
-![vLLM](https://img.shields.io/badge/vLLM_%28source--level%29-0080FF?style=flat-square) ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Quantization / Scheduling](https://img.shields.io/badge/Quantization_%2F_Scheduling-5C4D7D?style=flat-square)
-
-**Distributed**<br>
-![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square)
-
-**Deep Learning**<br>
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HF Transformers](https://img.shields.io/badge/HF_Transformers-FF9D00?style=flat-square&logo=huggingface&logoColor=white) ![PEFT](https://img.shields.io/badge/PEFT_%28LoRA_%2F_QLoRA_%2F_P--tuning%29-6B4FBB?style=flat-square)
-
-**LLM Apps**<br>
-![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square)
-
-**Storage & Systems**<br>
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+| Area | Stack |
+|:--:|:--:|
+| **Data Engineering** | ![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white) ![Flink](https://img.shields.io/badge/Flink-E6526F?style=flat-square&logo=apacheflink&logoColor=white) ![Hive](https://img.shields.io/badge/Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black) ![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square) |
+| **LLM Inference** | ![vLLM](https://img.shields.io/badge/vLLM_%28source--level%29-0080FF?style=flat-square) ![KV Cache](https://img.shields.io/badge/KV_Cache-0A7EA4?style=flat-square) ![Quantization / Scheduling](https://img.shields.io/badge/Quantization_%2F_Scheduling-5C4D7D?style=flat-square) |
+| **Distributed** | ![Ray](https://img.shields.io/badge/Ray_Core_%2F_Train_%2F_Data-028CF0?style=flat-square&logo=ray&logoColor=white) ![Training & Inference](https://img.shields.io/badge/Training_%26_Inference-37474F?style=flat-square) |
+| **Deep Learning** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HF Transformers](https://img.shields.io/badge/HF_Transformers-FF9D00?style=flat-square&logo=huggingface&logoColor=white) ![PEFT](https://img.shields.io/badge/PEFT_%28LoRA_%2F_QLoRA_%2F_P--tuning%29-6B4FBB?style=flat-square) |
+| **LLM Apps** | ![LangChain / LangGraph](https://img.shields.io/badge/LangChain_%2F_LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Multi-Agent · RAG](https://img.shields.io/badge/Multi--Agent_%C2%B7_RAG-2E8B57?style=flat-square) ![Context Engineering · LLM-as-Judge](https://img.shields.io/badge/Context_Engineering_%C2%B7_LLM--as--Judge-795548?style=flat-square) |
+| **Storage & Systems** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 ## 📊 Activity Signal
 
 <div align="center">
 
-<picture>
-  <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="assets/activity-signal-mobile-dark.svg">
-  <source media="(max-width: 700px)" srcset="assets/activity-signal-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-signal.svg">
-  <img src="assets/activity-signal-light.svg" alt="Contribution signal: 52-week line chart · GitHub stats · most used languages" width="100%">
-</picture>
+<img src="assets/activity-signal.svg" alt="Contribution signal: 52-week line chart · GitHub stats · most used languages" width="100%" />
 
 
 </div>

@@ -7,8 +7,7 @@ service is involved, so the picture cannot break when someone's Vercel
 instance dies. The committed SVG is refreshed by .github/workflows/activity-signal.yml.
 
 Usage:
-    render_activity_signal.py --username lska367 --lang en --theme dark --out assets/activity-signal.svg
-    render_activity_signal.py --username lska367 --lang zh --theme light --out assets/activity-signal-light-zh.svg
+    render_activity_signal.py --username lska367 --lang en --out assets/activity-signal.svg
 
 Exit code is non-zero when the data needed for the chart is unavailable, which
 keeps the previous (still correct) SVG in place instead of publishing a blank one.
@@ -43,30 +42,11 @@ LANG_COLORS = {
 }
 FALLBACK_COLORS = ["#8b949e", "#a5d6ff", "#d2a8ff", "#ffa657", "#7ee787", "#ff7b72"]
 
-# Two palettes so the README can pick a chart that matches the reader's theme
-# (<picture> + prefers-color-scheme). Same geometry, different ink.
-THEMES = {
-    "dark": {
-        "ACCENT": "#36BCF7",
-        "BG": "#0d1117",
-        "BORDER": "#21262d",
-        "TEXT": "#e6edf3",
-        "MUTED": "#8b949e",
-    },
-    "light": {
-        "ACCENT": "#1F6FEB",
-        "BG": "#ffffff",
-        "BORDER": "#d8dee9",
-        "TEXT": "#1f2328",
-        "MUTED": "#59636e",
-    },
-}
-
-ACCENT = THEMES["dark"]["ACCENT"]
-BG = THEMES["dark"]["BG"]
-BORDER = THEMES["dark"]["BORDER"]
-TEXT = THEMES["dark"]["TEXT"]
-MUTED = THEMES["dark"]["MUTED"]
+ACCENT = "#36BCF7"
+BG = "#0d1117"
+BORDER = "#21262d"
+TEXT = "#e6edf3"
+MUTED = "#8b949e"
 
 UI_FONT = ("'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',"
            "'Noto Sans CJK SC','Source Han Sans SC','Droid Sans Fallback',"
@@ -276,9 +256,7 @@ def title(x, y, text, size=19) -> str:
             f'font-weight="700" fill="{ACCENT}">{esc(text)}</text>')
 
 
-def small(x, y, text, anchor="start", fill=None, size=12) -> str:
-    # Resolve at call time: the palette is swapped after import via --theme.
-    fill = MUTED if fill is None else fill
+def small(x, y, text, anchor="start", fill=MUTED, size=12) -> str:
     return (f'<text x="{x}" y="{y}" text-anchor="{anchor}" font-family="{UI_FONT}" '
             f'font-size="{size}" fill="{fill}">{esc(text)}</text>')
 
@@ -329,25 +307,15 @@ def build_chart(x, y, w, h, mondays, series, total, lang):
         out.append(f'<circle cx="{px(i):.1f}" cy="{py(v):.1f}" r="2.6" fill="{ACCENT}"/>')
 
     last_key = None
-    last_right = None
     for i, m in enumerate(mondays):
         key = (m.year, m.month)
         if key == last_key:
             continue
         last_key = key
         lab = months[m.month - 1]
-        if m.month == 1:
+        if m.month == 1 or i == 0:
             lab = f"{lab} {m.year}"
-        # Skip a month tick that would collide with the previous one (the first
-        # week usually sits mid-month, so "Nov 2025" + "Dec" used to overlap).
-        # A year label that no longer fits degrades to the bare year first.
-        mid = min(px(i), pr - 14)
-        for cand in ([lab, lab.split()[-1]] if " " in lab else [lab]):
-            half = text_w(cand, 11) / 2
-            if last_right is None or mid - half >= last_right + 10:
-                out.append(small(mid, pb + 22, cand, size=11))
-                last_right = mid + half
-                break
+        out.append(small(min(px(i), pr - 14), pb + 22, lab, size=11))
     return "".join(out)
 
 
@@ -424,13 +392,10 @@ def main() -> int:
     ap.add_argument("--lang", choices=["en", "zh"], default="en")
     ap.add_argument("--out", required=True)
     ap.add_argument("--width", type=int, default=900)
-    ap.add_argument("--theme", choices=sorted(THEMES), default="dark")
     args = ap.parse_args()
 
-    global CTX, STAMP, ACCENT, BG, BORDER, TEXT, MUTED
+    global CTX, STAMP
     CTX = I18N[args.lang]
-    ACCENT, BG, BORDER, TEXT, MUTED = (THEMES[args.theme][k] for k in
-                                       ("ACCENT", "BG", "BORDER", "TEXT", "MUTED"))
     STAMP = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     mondays, series, total = fetch_weekly(args.username)
@@ -438,37 +403,24 @@ def main() -> int:
 
     W, pad = args.width, 16
     inner = W - 2 * pad
-    narrow = W < 620  # phones: one card per row instead of the 1 + 2 grid
+    left_w = inner * 0.5 - 6
+    right_w = inner - left_w - 12
+    chart_h, cards_h = 300, 250
+    H = pad + chart_h + 16 + cards_h + pad
 
     svg = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{{H}}" '
-        f'viewBox="0 0 {W} {{H}}" role="img" aria-label="Activity signal">',
-    ]
-    parts = []
-    if narrow:
-        chart_h, stats_h, langs_h = 300, 236, 250
-        H = pad + chart_h + 14 + stats_h + 14 + langs_h + pad
-        parts.append(build_chart(pad, pad, inner, chart_h, mondays, series, total, args.lang))
-        parts.append(build_stats(pad, pad + chart_h + 14, inner, stats_h, stats, args.username))
-        parts.append(build_langs(pad, pad + chart_h + 14 + stats_h + 14, inner, langs_h,
-                                 stats["langs"]))
-    else:
-        left_w = inner * 0.5 - 6
-        right_w = inner - left_w - 12
-        chart_h, cards_h = 300, 250
-        H = pad + chart_h + 16 + cards_h + pad
-        parts.append(build_chart(pad, pad, inner, chart_h, mondays, series, total, args.lang))
-        parts.append(build_stats(pad, pad + chart_h + 16, left_w, cards_h, stats, args.username))
-        parts.append(build_langs(pad + left_w + 12, pad + chart_h + 16, right_w, cards_h,
-                                 stats["langs"]))
-
-    svg[0] = svg[0].format(H=H)
-    svg += [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
+        f'viewBox="0 0 {W} {H}" role="img" aria-label="Activity signal">',
         "<defs><linearGradient id=\"areaGrad\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">"
         f'<stop offset="0%" stop-color="{ACCENT}" stop-opacity="0.75"/>'
         f'<stop offset="100%" stop-color="{ACCENT}" stop-opacity="0.05"/>'
         "</linearGradient></defs>",
-    ] + parts + ["</svg>"]
+        build_chart(pad, pad, inner, chart_h, mondays, series, total, args.lang),
+        build_stats(pad, pad + chart_h + 16, left_w, cards_h, stats, args.username),
+        build_langs(pad + left_w + 12, pad + chart_h + 16, right_w, cards_h,
+                    stats["langs"]),
+        "</svg>",
+    ]
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as fh:
         fh.write("".join(svg))

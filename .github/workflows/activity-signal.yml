@@ -35,16 +35,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }} # raises rate limits; enables the GraphQL source
         run: |
-          # dark = the historical filenames, light = the ones the README shows by default
-          python scripts/render_activity_signal.py --username lska367 --lang en --theme dark  --out assets/activity-signal.svg
-          python scripts/render_activity_signal.py --username lska367 --lang zh --theme dark  --out assets/activity-signal-zh.svg
-          python scripts/render_activity_signal.py --username lska367 --lang en --theme light --out assets/activity-signal-light.svg
-          python scripts/render_activity_signal.py --username lska367 --lang zh --theme light --out assets/activity-signal-light-zh.svg
-          # 420 px variants for phones (stacked layout, larger type)
-          python scripts/render_activity_signal.py --username lska367 --lang en --theme dark  --width 420 --out assets/activity-signal-mobile-dark.svg
-          python scripts/render_activity_signal.py --username lska367 --lang zh --theme dark  --width 420 --out assets/activity-signal-mobile-dark-zh.svg
-          python scripts/render_activity_signal.py --username lska367 --lang en --theme light --width 420 --out assets/activity-signal-mobile-light.svg
-          python scripts/render_activity_signal.py --username lska367 --lang zh --theme light --width 420 --out assets/activity-signal-mobile-light-zh.svg
+          python scripts/render_activity_signal.py --username lska367 --lang en --out assets/activity-signal.svg
+          python scripts/render_activity_signal.py --username lska367 --lang zh --out assets/activity-signal-zh.svg
 
       - name: Commit refreshed SVG
         run: |

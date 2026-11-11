@@ -97,68 +97,13 @@ TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" v
 """
 
 
-COMPACT_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="720" height="280" viewBox="0 0 720 280" role="img" aria-label="Kai Yang — Big Data Development Intern at ByteDance">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="720" y2="280" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="{bg_from}"/>
-      <stop offset="1" stop-color="{bg_to}"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="64" y1="0" x2="232" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#2563EB"/>
-      <stop offset="0.55" stop-color="#4F46E5"/>
-      <stop offset="1" stop-color="#8B5CF6"/>
-    </linearGradient>
-    <radialGradient id="blobA" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="{blob_a}" stop-opacity="{blob_opacity}"/>
-      <stop offset="1" stop-color="{blob_a}" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="blobB" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="{blob_b}" stop-opacity="{blob_opacity}"/>
-      <stop offset="1" stop-color="{blob_b}" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="1.2" fill="{dot}" opacity="{dot_opacity}"/>
-    </pattern>
-  </defs>
-
-  <rect width="720" height="280" fill="url(#bg)"/>
-  <circle cx="650" cy="0" r="220" fill="url(#blobA)"/>
-  <circle cx="560" cy="280" r="200" fill="url(#blobB)"/>
-  <rect width="720" height="280" fill="url(#dots)"/>
-
-  <g font-family="'Segoe UI', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Ubuntu, Helvetica, Arial, sans-serif">
-    <text x="56" y="100" font-size="60" font-weight="700" letter-spacing="-1.4" fill="{name}">Kai Yang</text>
-    <text x="56" y="134" font-size="21" fill="{handle}">杨锴 · lska367 · M.S. in AI, ECNU</text>
-
-    <rect x="56" y="152" width="150" height="5" rx="2.5" fill="url(#accent)"/>
-
-    <text x="56" y="202" font-size="27" font-weight="600" fill="{role_strong}">Big Data Development Intern</text>
-    <text x="56" y="234" font-size="21" fill="{role_sub}">ByteDance · Intl. Ads &amp; Transactions</text>
-  </g>
-
-  <g transform="translate(586, 58)">
-    <rect width="84" height="84" rx="20" fill="none" stroke="url(#accent)" stroke-width="2"/>
-    <rect x="6" y="6" width="72" height="72" rx="16" fill="{mono_fill}" opacity="{mono_fill_opacity}"/>
-    <text x="42" y="52" text-anchor="middle" font-size="29" font-weight="700" letter-spacing="-0.5"
-          font-family="'Segoe UI', -apple-system, Ubuntu, Helvetica, Arial, sans-serif" fill="{mono_text}">KY</text>
-  </g>
-</svg>
-"""
-
-VARIANTS = [
-    ("", TEMPLATE),
-    ("-compact", COMPACT_TEMPLATE),
-]
-
-
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    for suffix, template in VARIANTS:
-        for name, palette in PALETTES.items():
-            svg = template.format(w=W, h=H, **palette)
-            path = OUT / f"banner{suffix}-{name}.svg"
-            path.write_text(svg, encoding="utf-8")
-            print(f"wrote {path.relative_to(OUT.parent)} ({len(svg)} bytes)")
+    for name, palette in PALETTES.items():
+        svg = TEMPLATE.format(w=W, h=H, **palette)
+        path = OUT / f"banner-{name}.svg"
+        path.write_text(svg, encoding="utf-8")
+        print(f"wrote {path.relative_to(OUT.parent)} ({len(svg)} bytes)")
 
 
 if __name__ == "__main__":
